@@ -1,0 +1,69 @@
+<DOCTYPE HTML>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulario de Contacto</title>
+		<link rel="stylesheet"
+		type="text/css" href="css/dcontacto.css">
+	</head>
+
+	<body>
+		<nav class="nav">
+		<ul>
+			<li><a href="bachcenter.html">Inicio</a></li>
+		<li><a href="somos.html">¿Quienes somos?</a></li>
+		<li><a href="nosotros.html">Sobre Nosotros</a></li>
+		</ul>
+	</nav>
+		<div class="contac_form">
+			<div class="Formulario">
+				<h1>GRACIAS POR CONTACTARNOS</h1>
+				<h3>Porfavor llena los siguientes datos</h3>
+
+				<form action="submeter-formulario.php"
+				method="post">
+				
+				<p>
+					<label for="nombre" class="colocar_nombre"
+					id="nombre">Ingresa tu nombre o Nombre de tu empresa <span class="obligatorio">*</span>
+			</label>
+			<input tape="text" name="introducir_nombre" id="nombre"
+			required="obligatorio" placeholder="Escribe tu nombre">
+		</p>
+
+		<p>
+					<label for="curso" class="colocar_curso"
+					id="curso">A que te dedicas o a que se dedica tu empresa <span class="obligatorio">*</span>
+			</label>
+			<input tape="text" name="introducir_curso" id="curso"
+			required="obligatorio" placeholder="Escribe tu curso">
+		</p>
+
+		<p>
+					<label for="telefono" class="colocar_telefono"
+					id="telefono">Numero Telefonico <span class="obligatorio">*</span>
+			</label>
+			<input tape="tel" name="introducir_telefono" id="telefono"
+			required="obligatorio" placeholder="Escribe tu telefono">
+		</p>
+		<p>
+					<label for="correo" class="colocar_correo"
+					id="curso">Ingrese Correo electronico <span class="obligatorio">*</span>
+			</label>
+			<input tape="text" name="introducir_correo" id="correo"
+			required="obligatorio" placeholder="Escribe tu correo">
+		</p>
+		<p>
+					<label for="servicio" class="colocar_servicio"
+					id="curso">Que servicio desea <span class="obligatorio">*</span>
+			</label>
+			<input tape="text" name="introducir_servicio" id="servicio"
+			required="obligatorio" placeholder="Escribe tu servicio">
+		</p>
+
+		<button type="submit" name="enviar_formulario" id="enviar">
+			<p>enviar</p>
+		</button>
+
+
+
+	</body>

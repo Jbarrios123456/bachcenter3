@@ -1,0 +1,72 @@
+*{
+	padding: 0;
+	border: 0;
+}
+.nav{
+	font-family: 'Noto Sans', sans-serif;
+	margin: auto;
+	width: 500px;
+	height: 75px;
+	color: #FCFCFC
+	background: #030C5C;
+}
+.nav ul{
+	list-style: none;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	padding: 25px;
+	color: #FCFCFC;
+	text-decoration: none;
+}
+ul li a:hover{
+background: #02FFCD;
+}
+.contac_form{
+	width: 460px;
+	height: auto;
+	margin: 80px auto;
+	border-radius: 10px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color:#030C5C;
+	padding-left: 30px;
+	color: #FCFCFC;
+}
+
+input {
+	background-color:#030C5C;
+	width:440px;
+	height:40px;
+	border-radius:5px;
+	border-style:solid;
+	border-width:1px;
+	border-color: #F0FFFF;
+	margin-top:10px;
+	padding-left:10px;
+	margin-bottom:20px;
+	color: #F0FFFF;
+}
+label{
+	display: block;
+	float:center;
+	color: #F0FFFF;
+}
+button{
+	height: 45px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	background-color: #F0FFFF;
+	border-color: #02FFCD;
+	border-style: solid;
+	border-radius: 10px;
+	width: 400px;
+	cursor: pointer;
+}
+body{
+	background-color:#0097FF;
+}
